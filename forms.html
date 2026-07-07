@@ -1,0 +1,45 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(203, 231, 63);
+        }
+        table,tr,th,td,caption{
+            border: 2px solid rgb(163, 64, 64);
+        }
+        input{
+            background-color: rgb(137, 222, 241);
+        }
+        .email{
+            background-color: rgb(129, 221, 192);
+        }
+        #email{
+            background-color: rgb(120, 230, 217);
+        }
+    </style>
+</head>
+<body>
+    <form action="first.html">
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        </select><br><br>
+        <label> Course:</label>
+        <input type="checkbox" id="python" name="course" value="Python" required><label f
